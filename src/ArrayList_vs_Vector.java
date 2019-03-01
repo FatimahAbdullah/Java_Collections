@@ -8,12 +8,12 @@ public class ArrayList_vs_Vector {
         browsers.add("Firefox");
         browsers.add("Safari");
         browsers.add("Opera");
-
         //displaying elements using Iterator
         Iterator itr = browsers.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
+        
         System.out.println("\nUsing a Vector to add elements and enumerating through it");
         Vector<String> shoes = new Vector<String>();//creating vector
         shoes.addElement("Adidas");
